@@ -1,0 +1,48 @@
+.hello {
+	color: green;
+}
+
+.hello:hover {
+	color: yellow;
+}
+
+.hello:active {
+	color: brown;
+}
+
+.hello:visited {
+	color: 
+}
+
+li:first-child a {
+	color: red;
+}
+
+li:last-child a {
+	color: orange;
+}
+
+li:nth-child(2) a {
+	color: lightblue;
+}
+
+li:nth-child(3n) a {
+	color: green;
+}
+
+li:nth-child(even) a {
+	font-size: 20px;
+	font-style: italic;
+}
+
+li:nth-child(odd) a {
+	font-weight: bolder;
+}
+
+p:first-of-type {
+	font-style: italic;
+}
+
+p:last-of-type {
+	font-weight: bolder;
+}
